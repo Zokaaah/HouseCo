@@ -4,15 +4,15 @@
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
-    background-color: #e3effc; /* Cor de fundo semelhante à imagem */
-    border-radius: 22px;
-    color: #2C3E50;
+    background-color: #0d6efd; 
+    border-radius: 0px 0px 22px 22px;
+    color: #fff;
     width: 100%;
     box-sizing: border-box;
   }
   
   .navbar-logo img {
-    height: 80px; /* Ajuste conforme necessário */
+    height: 80px; 
     width: auto;
   }
   
@@ -24,7 +24,7 @@
   }
   
   .navbar-menu a {
-    color: #2C3E50;
+    color: #fff;
     text-decoration: none;
     font-weight:600;
     padding: 10px;
@@ -36,8 +36,8 @@
   }
   
   .login-button {
-    background-color: #0d6efd; /* Cor azul para o botão de login */
-    color: white;
+    background-color: #fff; /* Cor azul para o botão de login */
+    color: #0d6efd;
     padding: 8px 16px;
     border-radius: 5px;
     text-decoration: none;
@@ -56,12 +56,12 @@
       position: absolute;
       top: 60px;
       right: 0;
-      background-color: #e3effc;
+      background-color: #0d6efd;
       width: 200px;
       height: calc(100vh - 60px);
       padding: 20px;
-      transform: translateX(100%);
-    }
+      display: none;
+        }
   
     .navbar-login {
       margin-top: 20px;
@@ -72,7 +72,16 @@
     }
   
     .navbar-menu.open {
-      transform: translateX(0);
+      margin-top: 25px;
+      display: grid;
+      z-index: 2;
+      width: 100%;
+      border-radius: 0px 0px 22px 22px;
     }
   }
+
+
+
+
+  
   

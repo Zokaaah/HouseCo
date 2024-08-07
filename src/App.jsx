@@ -1,6 +1,9 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+
 
 
 //Components
@@ -17,8 +20,8 @@ function App() {
 
   return (
     <>
-    
-  <NavBar/>
+      <NavBar/>
+
   <Home/>
    
     </>

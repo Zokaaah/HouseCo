@@ -5,6 +5,8 @@
     margin-top: 5%;
     justify-content: center;
     align-items: center;
+    overflow-x: hidden;
+
 
   }
   .TextContent{
@@ -14,7 +16,7 @@
   }
 
   p{
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 500;
   }
 .TextTitle{
@@ -79,17 +81,9 @@
   color: #09549F;
   font-weight: bold;
 }
-  .ImageContent{
-    opacity: 0;
-    transform: translateX(100%);
-    transition: opacity 1s ease-out, transform 1s ease-out;
-    overflow-x: hidden;
-  }
+ 
 
-  .ImageContent.fade-in {
-    opacity: 1;
-    transform: translateX(0);
-  }
+ 
 
   .Banner{
     height: 580px !important;
@@ -98,7 +92,33 @@
 
   .ImageContent img{
     height: 700px;
+    margin-bottom: 3%;
   }
+
+  .slider-container{
+    padding: 5%;
+    margin-top: 5%;
+    justify-content: start;
+    align-items: center;
+    gap: 35%;
+    background-color: #f2f2f6;
+    border-radius: 22px;
+  }
+
+  .SliderTitle{
+    margin-bottom: 5%;
+    color: #2C3E50;
+    font-weight: 500;
+  }
+  
+  .slider-container img{
+    height: 120px;
+    margin: 0 auto;
+    border-radius: 100%;
+
+    box-shadow: #2C3E50;
+  }
+
 
   @media (max-width: 768px) {
 

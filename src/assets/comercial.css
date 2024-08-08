@@ -1,0 +1,142 @@
+.ComercialContent{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    padding: 5%;
+    margin: 0 auto;
+
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.TextArea{
+    width: 40%;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    margin-right: 5%;
+
+}
+.TextArea p{
+    color: #2C3E50;;
+}
+
+.TextArea h3{
+    color: #09549F;
+    font-weight: bold;
+    font-size: 46px;
+    text-align: left;
+    margin-bottom: 5%;
+}
+
+.TalkButton{
+  right: 10px;
+  background-color: #4a90e2;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  font-size: 16px;
+  width: 100%;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.TalkButton:hover{
+    right: 10px;
+    background-color:#fff ;
+    color: #4a90e2;
+    border: #09549F solid 1px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-size: 16px;
+    width: 100%;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.ImageArea{
+width: 60%;
+}
+
+.ImageArea img{
+height: auto;
+width: 100%;
+}
+
+
+
+@media (max-width: 768px) {
+
+    .ComercialContent{
+        display: flex;
+        flex-direction: column;
+        margin-top: 10%;
+        margin-bottom: 10%;
+        padding: 5%;
+        margin: 0 auto;
+    
+        justify-content: center;
+        align-items: center;
+    
+    
+    }
+    
+    .TextArea{
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        text-align: left;
+        margin-right: 5%;
+    
+    }
+    .TextArea p{
+        color: #2C3E50;;
+    }
+    
+    .TextArea h3{
+        color: #09549F;
+        font-weight: bold;
+        font-size: 46px;
+        text-align: left;
+        margin-bottom: 5%;
+    }
+    
+    .TalkButton{
+      right: 10px;
+      background-color: #4a90e2;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 20px;
+      font-size: 16px;
+      width: 100%;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+    
+    .TalkButton:hover{
+        right: 10px;
+        background-color:#fff ;
+        color: #4a90e2;
+        border: #09549F solid 1px;
+        padding: 10px 20px;
+        border-radius: 20px;
+        font-size: 16px;
+        width: 100%;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+    
+    .ImageArea{
+    width: 100%;
+    }
+    
+    .ImageArea img{
+    height: auto;
+    width: 100%;
+    }
+}

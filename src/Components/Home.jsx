@@ -1,7 +1,13 @@
 import React, { useEffect, useState } from 'react';
 import '../assets/home.css';
+import 'animate.css';
+
+
 import banner from '../assets/images/image1.png';
-import { Button } from 'react-bootstrap';
+
+import AutoPlay from '../Components/AutoPlay'
+import Comercial from './Comercial';
+
 
 
 
@@ -16,10 +22,9 @@ const Home = () => {
     <div>
 
       <div className='container-content'>
-        <div className='TextContent'>
+        <div className='TextContent animate__animated animate__fadeIn'>
           <h3 className='TextTitle'>Encontre seu imóvel dos sonhos</h3>
-          <p>Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos.</p>
-          <p>Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos.</p>
+          <p>Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos.Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos.Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos.Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos.</p>
           <div className="search-bar">
             <input type="text" placeholder="Pesquisar" className="search-input" />
             <button className="search-button">Pesquisar</button>
@@ -44,10 +49,19 @@ const Home = () => {
           </div>
         </div>
 
-        <div className={`ImageContent ${fadeIn ? 'fade-in' : ''}`}>
+        <div className='ImageContent animate__animated animate__fadeInRight'>
           <img className='Banner' src={banner} alt="Banner" />
         </div>
       </div>
+
+<div>
+  {/* COMPONENTES HOME */}
+<AutoPlay/>
+<Comercial/>
+
+
+
+</div>
     </div>
   );
 };

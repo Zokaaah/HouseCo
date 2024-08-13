@@ -1,0 +1,201 @@
+.PropertiesContainer{
+    margin-bottom: 5%;
+    margin-top: 10%;
+    height: 750px;
+    background-color: #EDF1FA;
+    padding: 5%;
+    border-radius: 14px;
+
+}
+
+.PropertiesTitle{
+    color: #3A8ADB;
+    font-weight: bold;
+
+}
+
+.BtnVertodos{
+    right: 10px;
+    background-color: #4a90e2;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-size: 16px;
+    width: 50%;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.BtnVertodos:hover{
+    right: 10px;
+    background-color:#fff ;
+    color: #4a90e2;
+    border: #09549F solid 1px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.ProName{
+    margin-top: 3%;
+}
+
+.PropertiesCards{
+    display: flex;
+    flex-direction: row;
+    padding: 3%;
+    gap:5%;
+}
+
+.PropertiesCards img{
+    height: 200px;
+    width: auto;
+    border-radius: 22px;
+}
+
+.Card{
+    padding: 1%;
+    border-radius: 20px;
+    transition: all 0.3s;
+    -webkit-transition: width 1s;
+    transition: width 1s;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.12), 
+              0 2px 2px rgba(0,0,0,0.12), 
+              0 4px 4px rgba(0,0,0,0.12), 
+              0 8px 8px rgba(0,0,0,0.12),
+              0 16px 16px rgba(0,0,0,0.12);
+
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    transition: all .5s;
+    height: 400px;
+    width: 100%;
+    
+}
+
+
+.CardMiddle{
+    padding: 1%;
+
+    color: #fff;
+    background-color: #3A8ADB;
+    border-radius: 20px;
+    transition: all 0.3s;
+    -webkit-transition: width 1s;
+    transition: width 1s;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.12), 
+              0 2px 2px rgba(0,0,0,0.12), 
+              0 4px 4px rgba(0,0,0,0.12), 
+              0 8px 8px rgba(0,0,0,0.12),
+              0 16px 16px rgba(0,0,0,0.12);
+
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    transition: all .5s;
+}
+
+@media (max-width: 768px) {
+    .PropertiesContainer{
+        margin-bottom: 5%;
+        margin-top: 10%;
+        height: auto;
+        background-color: #EDF1FA;
+        padding: 5%;
+        border-radius: 14px;
+    
+    }
+    
+    .PropertiesTitle{
+        color: #3A8ADB;
+        font-weight: bold;
+    
+    }
+    
+    .BtnVertodos{
+        right: 10px;
+        background-color: #4a90e2;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 20px;
+        font-size: 16px;
+        width: 50%;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+    
+    .BtnVertodos:hover{
+        right: 10px;
+        background-color:#fff ;
+        color: #4a90e2;
+        border: #09549F solid 1px;
+        padding: 10px 20px;
+        border-radius: 20px;
+        font-size: 16px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+    
+    .ProName{
+        margin-top: 3%;
+    }
+    
+    .PropertiesCards{
+        display: flex;
+        flex-direction: column;
+        padding: 3%;
+        gap:5%;
+    }
+    
+    .PropertiesCards img{
+        height: 200px;
+        width: 250px !important;
+        border-radius: 22px;
+    }
+    
+    .Card{
+        margin-top: 5%;
+        padding: 1%;
+        border-radius: 20px;
+        transition: all 0.3s;
+        -webkit-transition: width 1s;
+        transition: width 1s;
+        box-shadow: 0 1px 1px rgba(0,0,0,0.12), 
+                  0 2px 2px rgba(0,0,0,0.12), 
+                  0 4px 4px rgba(0,0,0,0.12), 
+                  0 8px 8px rgba(0,0,0,0.12),
+                  0 16px 16px rgba(0,0,0,0.12);
+    
+        -webkit-transition: all .5s;
+        -moz-transition: all .5s;
+        transition: all .5s;
+        height: 400px;
+        width: 100%;
+        
+    }
+    
+    
+    .CardMiddle{
+        padding: 1%;
+        margin-top: 5%;
+
+        color: #fff;
+        background-color: #3A8ADB;
+        border-radius: 20px;
+        transition: all 0.3s;
+        -webkit-transition: width 1s;
+        transition: width 1s;
+        box-shadow: 0 1px 1px rgba(0,0,0,0.12), 
+                  0 2px 2px rgba(0,0,0,0.12), 
+                  0 4px 4px rgba(0,0,0,0.12), 
+                  0 8px 8px rgba(0,0,0,0.12),
+                  0 16px 16px rgba(0,0,0,0.12);
+    
+        -webkit-transition: all .5s;
+        -moz-transition: all .5s;
+        transition: all .5s;
+    }
+}

@@ -7,6 +7,8 @@ import banner from '../assets/images/image1.png';
 
 import AutoPlay from '../Components/AutoPlay'
 import Comercial from './Comercial';
+import Properties from './Properties';
+import Stats from './Stats'
 
 
 
@@ -58,6 +60,8 @@ const Home = () => {
   {/* COMPONENTES HOME */}
 <AutoPlay/>
 <Comercial/>
+<Properties/>
+<Stats/>
 
 
 

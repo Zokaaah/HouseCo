@@ -4,6 +4,9 @@
   padding: 0rem 2rem;
   text-align: center;
   font-family: poppins;
+  overflow-x: hidden;
+  --animate-duration: 1800ms;
+  --animate-delay: 3.9s;
 }
 
 /* .logo {

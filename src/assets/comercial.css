@@ -1,11 +1,9 @@
 .ComercialContent{
     display: flex;
     flex-direction: row;
-    margin-top: 10%;
+    margin-top: 10% !important;
     margin-bottom: 10%;
-    padding: 5%;
     margin: 0 auto;
-
     justify-content: center;
     align-items: center;
 
@@ -13,7 +11,7 @@
 }
 
 .TextArea{
-    width: 40%;
+    width: 30%;
     justify-content: center;
     align-items: center;
     text-align: left;
@@ -59,7 +57,7 @@
 }
 
 .ImageArea{
-width: 60%;
+width: 65%;
 }
 
 .ImageArea img{
@@ -116,6 +114,7 @@ width: 100%;
       width: 100%;
       cursor: pointer;
       transition: background-color 0.3s ease;
+      margin-bottom: 5%;
     }
     
     .TalkButton:hover{

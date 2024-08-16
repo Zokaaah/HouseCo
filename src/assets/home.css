@@ -98,10 +98,11 @@
   .slider-container{
     padding: 5%;
     margin-top: 5%;
+    
     justify-content: start;
     align-items: center;
-    gap: 35%;
     background-color: #EDF1FA;
+    height: auto;
     border-radius: 22px;
   }
 

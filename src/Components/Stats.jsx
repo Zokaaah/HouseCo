@@ -50,6 +50,16 @@ const Stats = () => {
         </div>
         </div>
 
+        <div className='StatsBanner'>
+            <h1>Propriedades populares da semana</h1>
+            <p>Saiba mais sobre as propriedades mais procuradas da semana</p>
+            <button className='BtnBanner'>Fale conosco</button>
+
+
+        </div>
+
+        
+
     </div>
   )
 }

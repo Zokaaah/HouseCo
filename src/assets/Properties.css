@@ -9,14 +9,14 @@
 }
 
 .PropertiesTitle{
-    color: #3A8ADB;
+    color: #09549F;
     font-weight: bold;
 
 }
 
 .BtnVertodos{
     right: 10px;
-    background-color: #4a90e2;
+    background-color: #09549F;
     color: white;
     border: none;
     padding: 10px 20px;
@@ -30,7 +30,7 @@
 .BtnVertodos:hover{
     right: 10px;
     background-color:#fff ;
-    color: #4a90e2;
+    color: #09549F;
     border: #09549F solid 1px;
     padding: 10px 20px;
     border-radius: 20px;
@@ -81,7 +81,7 @@
     padding: 1%;
 
     color: #fff;
-    background-color: #3A8ADB;
+    background-color: #09549F;
     border-radius: 20px;
     transition: all 0.3s;
     -webkit-transition: width 1s;
@@ -109,14 +109,14 @@
     }
     
     .PropertiesTitle{
-        color: #3A8ADB;
+        color: #09549F;
         font-weight: bold;
     
     }
     
     .BtnVertodos{
         right: 10px;
-        background-color: #4a90e2;
+        background-color: #09549F;
         color: white;
         border: none;
         padding: 10px 20px;
@@ -183,7 +183,7 @@
         margin-top: 5%;
 
         color: #fff;
-        background-color: #3A8ADB;
+        background-color: #09549F;
         border-radius: 20px;
         transition: all 0.3s;
         -webkit-transition: width 1s;

@@ -18,22 +18,22 @@ const Properties = () => {
 
             <div className='Card'>
                 <img src={pro1} alt="" />
-                <p className='ProName'>Propriedade 1</p>
-                <p>Imovel com localização privilegiada</p>
-                <p className='ProPrice'>R$180.0000</p>
+                <p className='ProName'>Apartamento beira mar</p>
+                <p>Imovel próximo a praia com localização privilegiada</p>
+                <p className='ProPrice'>R$480.0000</p>
             </div>
 
             <div className='CardMiddle'>
                 <img src={pro2} alt="" />
-                <p className='ProName'>Propriedade 1</p>
+                <p className='ProName'>Conjunto de apartamento</p>
                 <p>Imovel com localização privilegiada</p>
                 <p className='ProPrice'>R$180.0000</p>
             </div>
 
             <div className='Card'>
                 <img src={pro3} alt="" />
-                <p className='ProName'>Propriedade 1</p>
-                <p>Imovel com localização privilegiada</p>
+                <p className='ProName'>Condominio Nova Sede</p>
+                <p>Condominio fechado proximo ao centro</p>
                 <p className='ProPrice'>R$180.0000</p>
             </div>
 

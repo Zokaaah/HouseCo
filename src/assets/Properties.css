@@ -48,7 +48,10 @@
     flex-direction: row;
     padding: 3%;
     gap:5%;
+    
 }
+
+
 
 .PropertiesCards img{
     height: 200px;
@@ -76,6 +79,13 @@
     
 }
 
+.Card:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+
+
+}
+
 
 .CardMiddle{
     padding: 1%;
@@ -95,6 +105,12 @@
     -webkit-transition: all .5s;
     -moz-transition: all .5s;
     transition: all .5s;
+}
+
+.CardMiddle:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+
 }
 
 @media (max-width: 768px) {

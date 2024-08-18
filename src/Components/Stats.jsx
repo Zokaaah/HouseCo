@@ -10,18 +10,18 @@ const Stats = () => {
         <div className='FirstContent'>
             <h1 className='StatsTitle'>Porque House Co?</h1>
             <div className='StatsCard'>
-                <h5>Preços acessiveis</h5>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+            <h5><ion-icon name="checkmark-circle-outline"></ion-icon>Preços acessiveis</h5>
+            <p className='StatsCardText'> Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
             </div>
 
             <div className='StatsCard'>
-                <h5>Preços acessiveis</h5>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+            <h5><ion-icon name="checkmark-circle-outline"></ion-icon>Preços acessiveis</h5>
+            <p className='StatsCardText'> Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
             </div>
 
             <div className='StatsCard'>
-                <h5>Preços acessiveis</h5>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+            <h5><ion-icon name="checkmark-circle-outline"></ion-icon>Preços acessiveis</h5>
+            <p className='StatsCardText'> Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
             </div>
         </div>
 

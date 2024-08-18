@@ -45,8 +45,22 @@
 
 .StatsTitle{
     color: #09549F;
-    font-weight: bold;}
+    font-weight: bold;
+}
 
+ion-icon {
+    color: #09549F;
+    align-items: center;
+    margin-right: 2%;
+    float: left;
+  }
+
+.StatsCardTitle{
+margin-left: 3%;
+}
+.StatsCardText{
+    margin-left: 5.5%;
+}
 .CardsBottom{
     display: flex;
     flex-direction: row;
@@ -88,11 +102,15 @@
     color: #fff;
     background-color: #09549F;
     text-align: left;
-
+}
+.start h3{
+    font-weight: bold;
 }
 
 .StatsBanner{
     background-image: url(images/bkgBanner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     height: 500px;
     border-radius: 14px;
     color: #fff;

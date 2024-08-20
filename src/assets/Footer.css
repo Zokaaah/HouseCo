@@ -1,0 +1,11 @@
+
+
+.FooterContainer {
+    background-color: #09549F;
+    display: flex;
+    flex-direction: row;
+    color: #fff;
+    padding: 0.25rem 0 !important; /* Ajuste o padding conforme necessário */  
+    border-radius: 22px 22px 0px 0px;
+
+}

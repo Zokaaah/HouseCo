@@ -9,6 +9,8 @@ import AutoPlay from '../Components/AutoPlay'
 import Comercial from './Comercial';
 import Properties from './Properties';
 import Stats from './Stats'
+import Testimonial from './Testimonial'
+import Footer from './Footer';
 
 
 
@@ -62,7 +64,8 @@ const Home = () => {
 <Comercial/>
 <Properties/>
 <Stats/>
-
+<Testimonial/>
+{/* <Footer/> */}
 
 
 </div>

@@ -85,7 +85,7 @@ const Stats = () => {
         </div>
 
         <div className='StatsBanner'>
-            <h1>Propriedades populares da semana</h1>
+            <h1>Venha realizar seu sonho</h1>
             <p>Saiba mais sobre as propriedades mais procuradas da semana</p>
             <button className='BtnBanner'>Fale conosco</button>
 

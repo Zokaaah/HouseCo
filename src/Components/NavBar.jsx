@@ -13,6 +13,7 @@ const Navbar = () => {
   };
 
   return (
+    <div className='ContentBody'>
     <nav className="navbar">
       <div className="navbar-logo">
       <img src={logo} alt="Logo" />
@@ -32,6 +33,7 @@ const Navbar = () => {
         {isOpen ? <FaTimes /> : <FaBars />}
       </div>
     </nav>
+    </div> 
   );
 };
 

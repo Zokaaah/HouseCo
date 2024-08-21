@@ -1,3 +1,9 @@
+.ContentBody{
+  max-width: 1380px;
+  margin: 0 auto;
+  padding: 0rem 2rem;
+}
+
 .container-content {
     display: flex;
     flex-direction: row;
@@ -102,7 +108,7 @@
     justify-content: start;
     align-items: center;
     background-color: #EDF1FA;
-    height: auto;
+    height: 420px;
     border-radius: 22px;
   }
 
@@ -215,6 +221,17 @@
     .ImageContent.fade-in {
       opacity: 1;
       transform: translateX(0);
+    }
+
+    .slider-container{
+      padding: 5%;
+      margin-top: 5%;
+      
+      justify-content: start;
+      align-items: center !important;
+      background-color: #EDF1FA;
+      height: 280px;
+      border-radius: 22px;
     }
   
     .Banner{

@@ -1,19 +1,15 @@
-import React, { useEffect, useState } from 'react';
-import '../assets/home.css';
-import 'animate.css';
+import React, { useEffect, useState } from "react";
+import "../assets/home.css";
+import "animate.css";
 
+import banner from "../assets/images/image1.png";
 
-import banner from '../assets/images/image1.png';
-
-import AutoPlay from '../Components/AutoPlay'
-import Comercial from './Comercial';
-import Properties from './Properties';
-import Stats from './Stats'
-import Testimonial from './Testimonial'
-import Footer from './Footer';
-
-
-
+import AutoPlay from "../Components/AutoPlay";
+import Comercial from "./Comercial";
+import Properties from "./Properties";
+import Stats from "./Stats";
+import Testimonial from "./Testimonial";
+import Footer from "./Footer";
 
 const Home = () => {
   const [fadeIn, setFadeIn] = useState(false);
@@ -23,14 +19,24 @@ const Home = () => {
   }, []);
 
   return (
-    <div>
-
-      <div className='container-content'>
-        <div className='TextContent animate__animated animate__fadeIn'>
-          <h3 className='TextTitle'>Encontre seu imóvel dos sonhos</h3>
-          <p>Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos.Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos.Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos.Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos.</p>
+    <div className="ContentBody">
+      <div className="container-content">
+        <div className="TextContent animate__animated animate__fadeIn">
+          <h3 className="TextTitle">Encontre seu imóvel dos sonhos</h3>
+          <p>
+            Lorem Ipsum é simplesmente uma simulação de texto da indústria
+            tipográfica e de impressos.Lorem Ipsum é simplesmente uma simulação
+            de texto da indústria tipográfica e de impressos.Lorem Ipsum é
+            simplesmente uma simulação de texto da indústria tipográfica e de
+            impressos.Lorem Ipsum é simplesmente uma simulação de texto da
+            indústria tipográfica e de impressos.
+          </p>
           <div className="search-bar">
-            <input type="text" placeholder="Pesquisar" className="search-input" />
+            <input
+              type="text"
+              placeholder="Pesquisar"
+              className="search-input"
+            />
             <button className="search-button">Pesquisar</button>
           </div>
           <div className="subitens">
@@ -48,27 +54,24 @@ const Home = () => {
               <h4>+5000</h4>
               <p>Clientes satisfeitos</p>
             </div>
-
-            
           </div>
         </div>
 
-        <div className='ImageContent animate__animated animate__fadeInRight'>
-          <img className='Banner' src={banner} alt="Banner" />
+        <div className="ImageContent animate__animated animate__fadeInRight">
+          <img className="Banner" src={banner} alt="Banner" />
         </div>
       </div>
 
-<div>
-  {/* COMPONENTES HOME */}
-<AutoPlay/>
-<Comercial/>
-<Properties/>
-<Stats/>
-<Testimonial/>
-{/* <Footer/> */}
+      <div>
+        {/* COMPONENTES HOME */}
+        <AutoPlay />
+        <Comercial />
+        <Properties />
+        <Stats />
+        <Testimonial />
+      </div>
 
-
-</div>
+      
     </div>
   );
 };

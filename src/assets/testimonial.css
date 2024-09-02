@@ -22,7 +22,7 @@
     -webkit-transition: all .5s;
     -moz-transition: all .5s;
     transition: all .5s;
-    height: auto;
+    height: 600px;
     width: 30%;
     text-align: left;
 }

@@ -41,7 +41,7 @@
         float: none;
     }
     .FooterText{
-        width: 400px;
+        width: auto;
         text-align: center;
         display: flex;
         flex-direction: column;

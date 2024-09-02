@@ -11,9 +11,11 @@ const Footer = () => {
             <img src={logo} className="logo" alt="" />
           </div>
           <p className="FooterText">
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s
+            HouseCo: Seu lar, nossa prioridade. Com anos de experiência no
+            mercado imobiliário, a HouseCo se destaca por oferecer soluções
+            personalizadas e seguras para a realização do seu sonho da casa
+            própria. Conte com nossa equipe de especialistas para encontrar o
+            imóvel ideal e realizar uma negociação tranquila e transparente.
           </p>
           <div className="FooterIcons">
             <ion-icon

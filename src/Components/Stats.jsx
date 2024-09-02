@@ -20,7 +20,7 @@ const Stats = () => {
                 </div>
                 <div className='TextStats'>
                 <h5>Preços acessiveis</h5>
-                <p className='StatsCardText'> Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                <p className='StatsCardText'> Aproveite nossas condições especiais e encontre o imóvel ideal!</p>
 
                 </div>
             </div>
@@ -34,8 +34,8 @@ const Stats = () => {
                 <ion-icon name="checkmark-circle-outline" size='large'></ion-icon>
                 </div>
                 <div className='TextStats'>
-                <h5>Preços acessiveis</h5>
-                <p className='StatsCardText'> Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                <h5>Financiamento facilitado</h5>
+                <p className='StatsCardText'> Conte com nossas condições especiais para realizar o sonho da casa própria.</p>
 
                 </div>
             </div>
@@ -49,8 +49,8 @@ const Stats = () => {
                 <ion-icon name="checkmark-circle-outline" size='large'></ion-icon>
                 </div>
                 <div className='TextStats'>
-                <h5>Preços acessiveis</h5>
-                <p className='StatsCardText'> Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                <h5>Seguro residência</h5>
+                <p className='StatsCardText'> O seguro residencial é uma forma de proteger o seu imóvel contra diversos tipos de imprevistos.</p>
 
                 </div>
             </div>
@@ -67,18 +67,18 @@ const Stats = () => {
 
     <div className='CardsBottom'>
         <div className='BotCards start'>
-            <h3>2,500+</h3>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+            <h3>+20 Anos de experiencia</h3>
+            <p>Estamos no mercado a 25 anos, tornando sonhos em realidade</p>
         </div>
 
         <div className='BotCards'>
-        <h2>2,500+</h2>
-        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+        <h2>+10 Sedes</h2>
+        <p>Temos mais de 10 pontos fisicos para melhor te atender.</p>
         </div>
 
         <div className='BotCards'>
-        <h2>2,500+</h2>
-        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+        <h2>+150 corretores</h2>
+        <p>Temos mais de 150 profissionais para te atender da melhor forma</p>
 
 
         </div>

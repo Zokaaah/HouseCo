@@ -24,21 +24,13 @@ const Home = () => {
         <div className="TextContent animate__animated animate__fadeIn">
           <h3 className="TextTitle">Encontre seu imóvel dos sonhos</h3>
           <p>
-            Lorem Ipsum é simplesmente uma simulação de texto da indústria
-            tipográfica e de impressos.Lorem Ipsum é simplesmente uma simulação
-            de texto da indústria tipográfica e de impressos.Lorem Ipsum é
-            simplesmente uma simulação de texto da indústria tipográfica e de
-            impressos.Lorem Ipsum é simplesmente uma simulação de texto da
-            indústria tipográfica e de impressos.
+            HouseCo: Seu lar, nossa prioridade. Com anos de experiência no
+            mercado imobiliário, a HouseCo se destaca por oferecer soluções
+            personalizadas e seguras para a realização do seu sonho da casa
+            própria. Conte com nossa equipe de especialistas para encontrar o
+            imóvel ideal e realizar uma negociação tranquila e transparente.
           </p>
-          <div className="search-bar">
-            <input
-              type="text"
-              placeholder="Pesquisar"
-              className="search-input"
-            />
-            <button className="search-button">Pesquisar</button>
-          </div>
+
           <div className="subitens">
             <div>
               <h4>+9000</h4>
@@ -55,6 +47,7 @@ const Home = () => {
               <p>Clientes satisfeitos</p>
             </div>
           </div>
+          <button className="BtnContact">Fale com especialista</button>
         </div>
 
         <div className="ImageContent animate__animated animate__fadeInRight">
@@ -70,8 +63,6 @@ const Home = () => {
         <Stats />
         <Testimonial />
       </div>
-
-      
     </div>
   );
 };
